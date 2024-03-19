@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 927c490cfa218c44497e09c4e02a07a3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - walk1S: {instanceID: 0}
+  - walk2S: {instanceID: 0}
+  - walk3S: {instanceID: 0}
+  - electricityS: {fileID: 8300000, guid: abe52263e7e07484cb78b95731517a58, type: 3}
+  - poisonS: {fileID: 8300000, guid: 6be9c3e6785dc164d8a6954a2d2ab887, type: 3}
+  - doorS: {fileID: 8300000, guid: fbe2ebdfae9531e41be2ae7caaf84263, type: 3}
+  - dropS: {fileID: 8300000, guid: 24296e539dcc7044482fc1f00f4ebf1a, type: 3}
+  - unpackS: {fileID: 8300000, guid: 7f357f532d4ce2747bdcac78c05aa9a0, type: 3}
+  - removeVineS: {fileID: 8300000, guid: 0cd5c9a87beb016498e49d80360339b9, type: 3}
+  - turnOnLightS: {fileID: 8300000, guid: 813a9ded7fedb7e4faa83a1209a1a2ef, type: 3}
+  - bridgeUpS: {fileID: 8300000, guid: 540681eca52c41f429f5e0fe7c1294c6, type: 3}
+  - monsterDeathS: {fileID: 8300000, guid: d3f69a2f37061b643a0812c8cd653b98, type: 3}
+  - getKeyS: {fileID: 8300000, guid: c492b1231477b3441a0c1132a9ee3185, type: 3}
+  - unlockS: {fileID: 8300000, guid: 1c04e500b5e43004a9679b9d2a206d0c, type: 3}
+  - witchS: {fileID: 8300000, guid: 48e5e69454393ff4c96e21a029b39439, type: 3}
+  - waterS: {instanceID: 0}
+  - cageDoorS: {fileID: 8300000, guid: 5a6a6b01f97090041a67e56fee94a230, type: 3}
+  - ovenButtonS: {fileID: 8300000, guid: 69b2ae2a182bcbb439a80eb757f55858, type: 3}
+  - oven1000S: {fileID: 8300000, guid: 3909e2a4b817246418a7f197efe7b072, type: 3}
+  - pourS: {fileID: 8300000, guid: db3d61d05a3a1894db74459e5523b534, type: 3}
+  - poisonPotionS: {fileID: 8300000, guid: 351ab0e03f5b6cc4d9dd2dabda8a8e05, type: 3}
+  - swingBroomS: {fileID: 8300000, guid: fa9e2fb0a57c48648a8c3d607d2fd79e, type: 3}
+  - brokenBroomS: {fileID: 8300000, guid: 53e56da2896c19e4b93ed426db950f3e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
