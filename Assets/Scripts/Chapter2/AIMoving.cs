@@ -14,10 +14,11 @@ public class AIMoving : MonoBehaviour {
 	void MoveToNextWayPoint(){
 		if(agent.velocity == Vector3.zero)
 		{
-			agent.SetDestination (wayPoints[wayCount++].position);
+			int RandomInt = Random.Range(0, wayPoints.Length);
+			agent.SetDestination (wayPoints[RandomInt].position);
 
-			if(wayCount>=wayPoints.Length)
-				wayCount=0;
+			//if(wayCount>=wayPoints.Length)
+			//	wayCount=0;
 		}
 
 	}
