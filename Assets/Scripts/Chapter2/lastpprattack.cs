@@ -39,11 +39,4 @@ public class lastpprattack : MonoBehaviour
     {
         witchState = 0;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-
-    }
 }

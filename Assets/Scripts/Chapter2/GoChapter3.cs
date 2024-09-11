@@ -8,13 +8,7 @@ public class GoChapter3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-              Invoke("sceneChange",2);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Invoke("sceneChange",2);
     }
 
     void sceneChange()

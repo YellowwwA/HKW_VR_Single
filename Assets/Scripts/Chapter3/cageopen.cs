@@ -24,9 +24,9 @@ public class cageopen : MonoBehaviour
     void Update()
     {
         myHandL = LeftGestureDetector.curHand;
-        Debug.Log("Movement : " + myHandL);
+        //Debug.Log("Movement : " + myHandL);
         myHandR = RightGestureDetector.curHand;
-        Debug.Log("Movement : " + myHandR);
+        //Debug.Log("Movement : " + myHandR);
 
         if (Vector3.Distance(playerTransform.position, CageDoortransform.position) < 5.0f)
         {

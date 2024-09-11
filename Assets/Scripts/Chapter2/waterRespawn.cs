@@ -10,18 +10,11 @@ public class waterRespawn : MonoBehaviour
     {
         respawnState = 0;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("Water");
+            //Debug.Log("Water");
             respawnState = 1;
             SoundEffects.whatSound = 207;
         }

@@ -30,7 +30,7 @@ public class BrokenBroom : MonoBehaviour
                 tape = true;
             }
             
-            Debug.Log("BroomStick is broken!");
+            //Debug.Log("BroomStick is broken!");
         }
     }
 }

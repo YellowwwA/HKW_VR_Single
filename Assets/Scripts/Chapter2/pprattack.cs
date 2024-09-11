@@ -18,7 +18,6 @@ public class pprattack : MonoBehaviour
             
             Vector3 pos = gameObject.transform.position;
 
-            //Destroy(gameObject, 2f);
             Destroy(gameObject);
 
             if (keyState == 0)
@@ -35,9 +34,4 @@ public class pprattack : MonoBehaviour
         keyState = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

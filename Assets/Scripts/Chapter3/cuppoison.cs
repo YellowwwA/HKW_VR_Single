@@ -10,12 +10,6 @@ public class cuppoison : MonoBehaviour
     Vector3 targetC = new Vector3(9.86f, 5.74f, -5.05f);
     Vector3 targetD = new Vector3(9.86f, 5.8f, -5.05f);
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

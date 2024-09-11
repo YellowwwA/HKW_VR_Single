@@ -5,20 +5,13 @@ using System.Collections;
 public class AIMoving : MonoBehaviour {
 	UnityEngine.AI.NavMeshAgent agent = null;
 	public Transform[] wayPoints = null;
-	int wayCount = 0;
-
-
-
-
+	//int wayCount = 0;
 
 	void MoveToNextWayPoint(){
 		if(agent.velocity == Vector3.zero)
 		{
 			int RandomInt = Random.Range(0, wayPoints.Length);
 			agent.SetDestination (wayPoints[RandomInt].position);
-
-			//if(wayCount>=wayPoints.Length)
-			//	wayCount=0;
 		}
 
 	}
@@ -28,9 +21,4 @@ public class AIMoving : MonoBehaviour {
 		InvokeRepeating ("MoveToNextWayPoint", 0f, 1f);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		//animation.CrossFade ("Walk", 0.1f);
-	}
-
 }

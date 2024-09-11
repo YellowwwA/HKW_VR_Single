@@ -6,7 +6,7 @@ public class unlock3 : MonoBehaviour
 {
 
     public GameObject unlockPrefab;
-    private Vector3 Pos;
+    //private Vector3 Pos;
     private float time = 0.1f;
 
     private string myHandL;
@@ -44,12 +44,8 @@ public class unlock3 : MonoBehaviour
                         GetKey.haveKey = 0;
                     }
 
-                    else { Debug.Log("No Key"); }
+                    //else { Debug.Log("No Key"); }
                 }
-            }
-            else
-            {
-
             }
         }
     }

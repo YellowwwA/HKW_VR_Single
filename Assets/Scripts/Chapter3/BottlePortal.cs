@@ -5,12 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class BottlePortal : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider collision)
     {
         if(collision.CompareTag("Player"))

@@ -9,11 +9,9 @@ public class bottleSensor : MonoBehaviour
     public static int count;
     public static string prevbottle;
     public static string curbottle;
-    //public static int prevbottletouch;
     // Start is called before the first frame update
     void Start()
     {
-
         count = 0;
     }
 
@@ -21,7 +19,6 @@ public class bottleSensor : MonoBehaviour
     {
         if(collision.CompareTag("bottle"))
         {
-            //prevbottletouch = bottletouch;
             curbottle = "A";
             
             if(curbottle != prevbottle){
@@ -33,7 +30,6 @@ public class bottleSensor : MonoBehaviour
         }
         if(collision.CompareTag("bottleB"))
         {
-            //prevbottletouch = bottletouch;
             curbottle = "B";
             
             if(curbottle != prevbottle){
@@ -45,7 +41,6 @@ public class bottleSensor : MonoBehaviour
         }
         if(collision.CompareTag("bottleC"))
         {
-            //prevbottletouch = bottletouch;
             curbottle = "C";
             
             if(curbottle != prevbottle){
@@ -57,7 +52,6 @@ public class bottleSensor : MonoBehaviour
         }
         if(collision.CompareTag("bottleD"))
         {
-            //prevbottletouch = bottletouch;
             curbottle = "D";
 
             if(curbottle != prevbottle){
