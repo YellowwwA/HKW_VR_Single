@@ -12,7 +12,7 @@ public class RespawnPlayer : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "ppr")
+        if (other.CompareTag("ppr"))
         {
             respawnState = 1;
             SoundEffects.whatSound = 207;

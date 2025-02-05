@@ -12,7 +12,7 @@ public class waterRespawn : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))//collision.gameObject.tag == "Player")
         {
             //Debug.Log("Water");
             respawnState = 1;
